@@ -9,9 +9,10 @@ body {
 header {
   background-color: #1F2937;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 12px 100px;
+  gap: 200px;
 }
 
 .header-logo {
@@ -31,4 +32,21 @@ a {
   cursor: pointer;
   text-decoration: none;
   color: #E5E7EB;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  padding: 100px 100px;
+}
+
+.hero-left {
+  width: 450px;
+  padding: 8px;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
 }
