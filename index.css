@@ -5,14 +5,30 @@ body {
   margin: 0;
   padding: 0;
 }
+
 header {
   background-color: #1F2937;
-  color: #E5E7EB;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 12px 100px;
 }
 
 .header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.header-links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+a {
   font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #E5E7EB;
 }
