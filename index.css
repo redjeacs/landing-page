@@ -117,3 +117,8 @@ a {
 .info-subtext {
   width: 150px;
 }
+
+.quote-container {
+  padding: 100px;
+  background-color: #E5E7EB;
+}
