@@ -5,7 +5,6 @@ body {
   margin: 0;
   padding: 0;
   flex: 1 1 auto;
-  width: 1500px;
 }
 
 header {
@@ -83,20 +82,38 @@ a {
   align-items: center;
 }
 
+.info-section {
+  margin-bottom: 150px;
+}
+
 .info-header {
   font-size: 36px;
   font-weight: 900;
   color: #1F2937;
   text-align: center;
-  padding: 30px;
+  padding: 40px;
 }
 
 .info-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 50px;
 }
 
 .info {
-  width: 200px;
+  width: 160px;
+  text-align: center;
+}
+
+.info-image {
+  border-color: #3882F6;
+  border-width: 3px;
+  border-style: solid;
+  min-height: 160px;
+  border-radius: 15px;
+}
+
+.info-subtext {
+  width: 150px;
 }
