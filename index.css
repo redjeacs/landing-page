@@ -4,7 +4,6 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
-  flex: 1 1 auto;
 }
 
 header {
@@ -14,6 +13,7 @@ header {
   align-items: center;
   padding: 15px 100px;
   gap: 200px;
+  min-width: 1105px;
 }
 
 .header-logo {
@@ -42,6 +42,7 @@ a {
   gap: 50px;
   padding: 100px 100px;
   background-color: #1F2937;
+  min-width: 1105px;
 }
 
 .hero-left {
@@ -78,6 +79,7 @@ a {
 
 .content {
   align-items: center;
+  min-width: 1105px;
 }
 
 .info-header {
@@ -145,14 +147,34 @@ a {
 }
 
 .signup-container {
-  padding: 100px 0;
+  padding: 120px 400px;
 }
 
 .call-to-action-container {
-  padding: 20px;
+  padding: 60px;
   background-color: #3882F6;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 150px;
+  border-radius: 10px;
+  min-width: 1105px;
+}
+
+.call-to-action-text {
+  color: #F9FAF8;
+}
+
+.call-to-action-header {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.call-to-action-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 0;
+  padding: 0;
 }
