@@ -143,3 +143,16 @@ a {
   margin: 0;
   padding: 0;
 }
+
+.signup-container {
+  padding: 100px 0;
+}
+
+.call-to-action-container {
+  padding: 20px;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
