@@ -62,3 +62,12 @@ a {
 .hero-right {
   width: 450px;
 }
+
+.sign-up-button {
+  background-color: #3882F6;
+  padding: 6px 24px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 8px;
+}
